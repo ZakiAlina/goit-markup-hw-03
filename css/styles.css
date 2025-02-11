@@ -26,6 +26,12 @@ body {
     background-color: var(--background-color);
 }
 
+html {
+    box-sizing: border-box;
+}
+
+
+
 .container {
     width: 1200px;
     padding-left: 15px;
