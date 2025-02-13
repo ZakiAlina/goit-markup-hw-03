@@ -91,6 +91,11 @@ ul {
     color: var(--dark-text-logo);
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -158,7 +163,6 @@ ul {
     font-weight: 700;
     line-height: calc(30/16);
     letter-spacing: 0.06em;
-    text-align: center;
     color: var(--hero-text-color);
     border-radius: 4px;
     padding: 10px 20px;
@@ -171,9 +175,10 @@ ul {
     background: var(--btn-color-active);
 }
 
-*/-------Feaatures-------*/
+/*-------Feaatures-------*/
 
 .features-title {
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: calc(16.41/14);
 }
@@ -185,13 +190,14 @@ ul {
 }
 
 
-*/-------Teams-------*/
+/*-------Teams-------*/
 
 .teams-section{
     background-color: var(--secondary-background-color);
 }
 
 .teams-title{
+    margin-bottom: 10px;
     font-weight: 500;
     line-height: calc(18.75/16);
 }
@@ -204,6 +210,8 @@ ul {
 /*-------Footer-------*/
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-color);
 }
 
