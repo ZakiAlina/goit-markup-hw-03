@@ -106,6 +106,10 @@ ul {
 
 /*-------Header-------*/
 
+.header {
+    border-bottom: 1px solid var(--gorizontal-header-line);
+}
+
 .header-link {
     font-size: 14px;
     font-weight: 500;
@@ -240,6 +244,8 @@ ul {
 /*-------PORTFOLIO--------*/
 
 .portfolio-filter-btn {
+    min-width: 64px;
+    padding: 6px 20px;
     font-weight: 500;
     line-height: calc(26/16);
     letter-spacing: 0.03em;
@@ -256,6 +262,7 @@ ul {
 }
 
 .portfolio-item-title {
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
