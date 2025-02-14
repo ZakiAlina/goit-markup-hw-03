@@ -181,13 +181,13 @@ ul {
 
 /*-------Feaatures-------*/
 
-.features-title {
+.features-item-title {
     margin-bottom: 10px;
     font-size: 14px;
     line-height: calc(16.41/14);
 }
 
-.features-text {
+.features-item-text {
     font-size: 14px;
     line-height: calc(24/14);
     color: var(--text-color);
@@ -196,19 +196,24 @@ ul {
 
 /*-------Teams-------*/
 
-.teams-section{
+.team-section{
     background-color: var(--secondary-background-color);
 }
 
-.teams-title{
+.team-item-title {
     margin-bottom: 10px;
     font-weight: 500;
     line-height: calc(18.75/16);
 }
 
-.teams-text {
+.team-item-text {
     line-height: calc(18.75/16);
     color: var(--text-color);
+}
+
+.team-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*-------Footer-------*/
