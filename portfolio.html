@@ -21,30 +21,32 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container nav-container">
+        <nav class="navigation">
           <a href="/" class="link logo"
             >Web<span class="dark-logo">Studio</span></a
           >
           <ul class="site-nav list">
-            <li>
+            <li class="site-nav-item">
               <a href="index.html" class="link header-link">Studio</a>
             </li>
-            <li>
+            <li class="site-nav-item">
               <a href="portfolio.html" class="link header-link current"
                 >Portfolio</a
               >
             </li>
-            <li><a href="/" class="link header-link">Contacts</a></li>
+            <li class="site-nav-item">
+              <a href="/" class="link header-link">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <ul class="list">
-          <li>
+        <ul class="contacts-list link">
+          <li class="contacts-item">
             <a href="mailto:info@devstudio.com" class="link contacts-link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contacts-item">
             <a href="tel:+12127724150" class="link contacts-link"
               >+1 212-772-4150</a
             >
@@ -52,39 +54,40 @@
         </ul>
       </div>
     </header>
+
     <main>
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
-          <ul class="list">
-            <li>
+          <ul class="list portfolio-filters">
+            <li class="portfolio-filters-item">
               <button type="button" class="button portfolio-filter-btn">
                 All
               </button>
             </li>
-            <li>
+            <li class="portfolio-filters-item">
               <button type="button" class="button portfolio-filter-btn">
                 Web-sites
               </button>
             </li>
-            <li>
+            <li class="portfolio-filters-item">
               <button type="button" class="button portfolio-filter-btn">
                 Apps
               </button>
             </li>
-            <li>
+            <li class="portfolio-filters-item">
               <button type="button" class="button portfolio-filter-btn">
                 Design
               </button>
             </li>
-            <li>
+            <li class="portfolio-filters-item">
               <button type="button" class="button portfolio-filter-btn">
                 Marketing
               </button>
             </li>
           </ul>
 
-          <ul class="list">
+          <ul class="list portfolio-list">
             <li class="portfolio-item">
               <a href="" class="link">
                 <img src="images/portfolio1.jpg" alt="Technoduck" width="370" />
